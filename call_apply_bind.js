@@ -30,7 +30,7 @@ longerSummary.call(book, 'technology', 2020);
 
 longerSummary.apply(book, ['technology', 2020]);
 
-// Example 4 - Bind -
+// Example 4 - Bind - Create a new method/function with "this (object reference)".
 
 const bookWithSummary = summary.bind(book);
 bookWithSummary();

@@ -1,6 +1,5 @@
 // Currying - separate arguments in a function
 
-
 // Noncurried version
 const add = (a, b, c)=>{
     return a+ b + c
