@@ -1,4 +1,4 @@
-// Call, Apply and Bind - Prototype methods, Referencing this in a explicit context
+// Call, Apply and Bind - Prototype methods, Referencing "this" in a explicit context
 
 // Example 1
 

@@ -1,12 +1,13 @@
-// Closure - Behaviour that a function remember the lexical scope
+// Closure - Behaviour that a function remember the lexical (outer) scope
 
 // example 1
 const pizza = 'Pepperoni'
 
 function getPizza() {
-    const pizza = "Margherita"
+    const drink = "Coke"
 
     console.log({pizza})
+    console.log({drink})
 }
 
 getPizza()
