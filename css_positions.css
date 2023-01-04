@@ -1,0 +1,31 @@
+/* CSS Positions */
+
+/* static - is not positioned in any special way; it is always positioned according to the normal flow of the page */
+
+/* relative - is positioned relative to its normal position - Setting the top, right, bottom, and left properties */
+
+/* fixed - is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. 
+The top, right, bottom, and left properties are used to position the element. */
+
+/* absolute - is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). */
+
+/* sticky - A sticky element toggles between relative and fixed, depending on the scroll position. */
+
+
+/* CSS - Float property */
+
+/* property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
+
+/* left - The element floats to the left of its container */
+/* right - The element floats to the right of its container */
+/* none - The element does not float (will be displayed just where it occurs in the text). This is default */
+/* inherit - The element inherits the float value of its parent */
+
+
+/* CSS - Display property */
+
+/* Display property is the most important CSS property for controlling layout */
+/* inline, none, block (start on a new line)  */
+
+
+

@@ -16,20 +16,22 @@ myPromise.then(
 
 // Example 1 - then/catch/finally
 
-function checkMail() {
+function checkValue() {
   return new Promise((resolve, reject) => {
-    if (Math.random() > 0.5) {
-      resolve("Mail has arrived");
-    } else {
-      reject(new Error("Failed to arrive"));
-    }
-  });
+      let x = 5;
+
+      if(x > 3 ) {
+          resolve('Number is valid')
+      } else {
+          reject('Number no valid')
+      }
+  })
 }
 
-checkMail()
-  .then((mail) => { console.log(mail) }) // Successfull 
-  .catch((err) => { console.error(err) }) // Failed
-  .finally(() => { console.log("Experiment completed") }); // Always
+checkValue()
+.then((success) => { console.log(success) }) // Successfull 
+.catch((err) => { console.error(err) }) // Failed
+.finally(() => { console.log("Experiment completed") }); // Always
 
 
 // Example 2 - promise.all() - manage result from several promises at once

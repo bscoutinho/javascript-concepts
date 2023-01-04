@@ -44,7 +44,7 @@ let result8 = numbers.reduceRight((prev, curr, index, array) => prev + curr)
 console.log('result reduce: ',result8)
 
 // example 9 - flatMap() - maps all elements of an Array and then creates a new array by flattening the array
-let result9 = numbers.flatMap((x) => x * 2)
+let result9 = nestedArr.flatMap((element) => element)
 console.log('result flatMap: ',result9)
 
 
